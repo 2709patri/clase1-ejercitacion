@@ -1,0 +1,118 @@
+body {
+    
+    margin: 0;
+    padding: 20px 20px 0px 20px;
+    
+}
+
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 100;
+    color: darkolivegreen;
+
+}
+h2 {
+    text-align: center;
+    color: #384734;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200;
+}
+
+form {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff00;
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+label, input, select {
+    display: block;
+    margin: 10px 0;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+
+/* Estilos para el botón de envío */
+input[type="submit"] {
+    background-color: 384734;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #f1ae61;
+}
+
+/* Estilos para el elemento de valor del seguro */
+#valorSeguro {
+    margin-top: 10px;
+}
+
+video {
+    flex: 1;
+   position: fixed;;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    z-index: -1; /* Coloca el video detrás del contenido */
+}
+
+/*estilo confirmacion.html */
+
+   
+
+body .confirmacion{
+    background-image: url('assets/imagenes.img/art-8038299_1280.jpg'); 
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.5); /* El último valor (0.5) controla la opacidad */
+    margin: 0;
+    padding: 20px 20px 0px 20px;
+}
+
+#mensaje {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.74); /* Color de fondo del mensaje */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra alrededor del mensaje */
+}
+
+#salir {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#salir a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #5e3c51; /* Color de fondo del botón */
+    color: #f1ae61; /* Color del texto del botón */
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#salir a:hover {
+    background: #384734; /* Color de fondo del botón al pasar el mouse */
+}
